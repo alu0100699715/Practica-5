@@ -30,7 +30,7 @@ puts
 	end
 
 	def * other
-	    @numeradorr=@numerador * other.numerador
+	    @numerador=@numerador * other.numerador
 	    @denominador=@denominador * other.denominador
 	    i=gcd(@numerador,@denominador)
 	    puts "i=#{i}"
@@ -40,7 +40,7 @@ puts
 	    
 	end
 
-	def div other
+	def div(other)
 	   @numeradorr=@numerador * other.denominador
 	   @denominador=@denominador * other.numerador
 	   i=gcd(@numerador,@denominador)

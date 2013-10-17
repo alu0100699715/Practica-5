@@ -40,8 +40,8 @@ puts
 	    
 	end
 
-	def div other
-	   @numeradorr=@numerador * other.denominador
+	def div(other)
+	   @numerador=@numerador * other.denominador
 	   @denominador=@denominador * other.numerador
 	   i=gcd(@numerador,@denominador)
 	   @numerador=@numerador/i
